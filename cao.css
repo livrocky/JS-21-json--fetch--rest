@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(240, 235, 235, 0.932);
+}
+
+.container {
+  margin: auto;
+  width: 25%;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h2#title {
+  font-size: 110%;
+  margin-bottom: 4px;
+}
+
+#email {
+  font-size: 80%;
+  align-self: left;
+  color: rgba(175, 167, 167, 0.932);
+  margin: 0;
+}
+
+#info {
+  padding: 20px;
+}
