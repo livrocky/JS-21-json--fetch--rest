@@ -13,8 +13,8 @@ fetch("https://randomuser.me/api")
     let age = data.results[0].dob.age;
     let email = data.results[0].email;
     let picture = data.results[0].picture.large;
-    fullNameEl.textContent = `${name} ${lname}`;
-    ageEl.textContent = `${age} years old`;
+    fullNameEl.textContent = `${name} ${lname} ${age} years old`;
+    // ageEl.textContent = `${age} years old`;
     emailEl.textContent = email;
     imgEl.setAttribute("src", picture);
   });
