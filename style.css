@@ -1,5 +1,9 @@
 h3 {
   width: 30%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-bottom: 40px;
+  color: purple;
+}
+h1 {
+  color: crimson;
 }
