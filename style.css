@@ -3,6 +3,7 @@ h3 {
   /* border: 1px solid red; */
   margin-bottom: 40px;
   color: purple;
+  border: 2px solid rgb(51, 158, 144);
 }
 h1 {
   color: crimson;

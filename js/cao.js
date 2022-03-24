@@ -2,7 +2,8 @@
 
 const imgEl = document.querySelector("img");
 const fullNameEl = document.getElementById("title");
-const ageEl = document.getElementById("title").getElementsByClassName("ageTitle")[0];
+const ageEl = document.querySelector(".ageTitle");
+console.log("ageEl===", ageEl);
 const emailEl = document.getElementById("email");
 
 fetch("https://randomuser.me/api")
@@ -28,7 +29,7 @@ fetch("https://boiling-reaches-93648.herokuapp.com/week-3/party")
   .then((data) => {
     const Kristupas = data.filter((uObj) => uObj.name === "Kristupas Lapeika");
     console.log(Kristupas);
-    if (Kristupas[0].vip === true) console.log(`${true}, Kristupas Lapeika yra VIP!`);
+    if (Kristupas[0].vip !== true) console.log(`${true}, Kristupas Lapeika yra VIP!`);
     else console.log(`${false}, Kristupas Lapeika nėra VIP!`);
   });
 
